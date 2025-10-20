@@ -632,6 +632,7 @@ a:hover {
   border: 2px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--spacing-xl);
+  height: fit-content;
 }
 
 /* Responsive tweaks */
