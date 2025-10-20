@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Programs — Bright Future Foundation">
+  <title>Programs — Bright Future Foundation</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- HEADER (copied from index.html) -->
+  <header class="header">
+    <nav class="container">
+      <div class="nav">
+        <a href="index.html" class="logo">Bright Future Foundation</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html" aria-current="page">Programs</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="section programs-hero">
+      <div class="container center">
+        <h1 class="section-title">Our Programs</h1>
+        <p class="section-description">
+          Comprehensive educational initiatives designed to empower learners at every stage of life.
+          From early childhood to adult education, we provide accessible, high-quality programs that create lasting impact.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROGRAMS GRID -->
+    <section class="section">
+      <div class="container grid grid-cols-1 gap-lg">
+        <article class="program-card">
+          <img src="images/diverse-children-learning.png" alt="Early Childhood Education" class="program-img">
+          <div class="program-body">
+            <h2 class="program-title">Early Childhood Education</h2>
+            <p class="program-description">Foundational learning programs for children ages 3-6, focusing on literacy, numeracy, and social-emotional development through play-based learning.</p>
+            <div class="program-impact">2,500+ children enrolled</div>
+            <a href="contact.html" class="btn btn-primary">Learn More →</a>
+          </div>
+        </article>
+
+        <article class="program-card reverse">
+          <img src="images/mentor-and-student-studying-together.jpg" alt="Youth Mentorship Program" class="program-img">
+          <div class="program-body">
+            <h2 class="program-title">Youth Mentorship Program</h2>
+            <p class="program-description">One-on-one mentoring connecting young people with caring adults who provide guidance, support, and encouragement for academic and personal growth.</p>
+            <div class="program-impact">800+ mentor matches</div>
+            <a href="contact.html" class="btn btn-primary">Learn More →</a>
+          </div>
+        </article>
+
+        <article class="program-card">
+          <img src="images/adults-in-literacy-class.jpg" alt="Adult Literacy Initiative" class="program-img">
+          <div class="program-body">
+            <h2 class="program-title">Adult Literacy Initiative</h2>
+            <p class="program-description">Flexible learning programs helping adults improve reading, writing, and digital literacy skills to enhance employment opportunities and daily life.</p>
+            <div class="program-impact">1,200+ adults served</div>
+            <a href="contact.html" class="btn btn-primary">Learn More →</a>
+          </div>
+        </article>
+
+        <article class="program-card reverse">
+          <img src="images/people-learning-computer-skills.jpg" alt="Digital Skills Training" class="program-img">
+          <div class="program-body">
+            <h2 class="program-title">Digital Skills Training</h2>
+            <p class="program-description">Technology education programs teaching essential computer skills, coding basics, and digital citizenship to prepare learners for the modern workforce.</p>
+            <div class="program-impact">3,000+ trained</div>
+            <a href="contact.html" class="btn btn-primary">Learn More →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SUCCESS STORY -->
+    <section class="section section-muted">
+      <div class="container success-story">
+        <div class="success-img">
+          <img src="images/professional-woman-smiling.png" alt="Maria Rodriguez">
+        </div>
+        <div class="success-text">
+          <h2 class="h2">From Student to Community Leader: Maria's Journey</h2>
+          <p>Maria joined our Adult Literacy Initiative in 2020 with limited English skills and no high school diploma. Through dedicated study and support from our mentors, she not only earned her GED but also completed our Digital Skills Training program.</p>
+          <p>Today, Maria works as a community outreach coordinator and volunteers as a mentor in the same program that helped her. "Bright Future Foundation didn't just teach me to read and write better," she says. "They showed me that I could achieve anything I set my mind to."</p>
+          <p class="meta">— Maria Rodriguez, Program Graduate & Volunteer Mentor</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="band-cta">
+      <div class="container center">
+        <h2 class="band-cta-title">Want to Learn More?</h2>
+        <p class="band-cta-subtitle">
+          Get in touch to discover how you can participate in our programs or bring them to your community.
+        </p>
+        <a class="btn btn-secondary" href="contact.html">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Bright Future Foundation</h3>
+          <p>Empowering individuals and strengthening communities through accessible, high-quality education.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html" aria-current="page">Programs</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul class="footer-links">
+            <li>Email: info@brightfuture.org</li>
+            <li>Phone: (555) 123-4567</li>
+            <li>Address: 123 Education St, Learning City, LC 12345</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bright Future Foundation. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
