@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Bright Future Foundation - Empowering individuals through accessible, high-quality education">
+  <meta name="description" content="Bright Future Foundation - Empowering communities through education">
   <title>Bright Future Foundation - Home</title>
   <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/home-additions.css">
 </head>
 <body>
-  <!-- Header -->
   <header class="header">
     <nav class="container">
       <div class="nav">
         <a href="index.html" class="logo">Bright Future Foundation</a>
         <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
         <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" aria-current="page">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="programs.html">Programs</a></li>
           <li><a href="resources.html">Resources</a></li>
@@ -26,141 +26,208 @@
     </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>Empowering Communities Through Education</h1>
-      <p class="text-muted">Join us in creating lasting change through accessible, high-quality education programs that transform lives and strengthen communities.</p>
-      <div>
-        <a href="programs.html" class="btn btn-primary">Explore Programs</a>
-        <a href="contact.html" class="btn btn-secondary">Get Involved</a>
+  <main>
+    <section class="hero hero-image">
+      <div class="container">
+        <h1 class="hero-title">Building stronger communities through the power of education</h1>
+        <p class="hero-subtitle text-muted">
+          We partner with local communities to create lasting change through accessible education, mentorship,
+          and resources that empower learners of all ages.
+        </p>
+        <div class="hero-actions">
+          <a href="programs.html" class="btn btn-secondary">Explore Programs</a>
+          <a href="blog.html" class="btn btn-outline">Read the Blog</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Stats Section -->
-  <section class="stats">
-    <div class="stat">
-      <div class="stat-value">10,000+</div>
-      <div class="stat-label">Students Served</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value">50+</div>
-      <div class="stat-label">Programs Offered</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value">95%</div>
-      <div class="stat-label">Success Rate</div>
-    </div>
-    <div class="stat">
-      <div class="stat-value">25</div>
-      <div class="stat-label">Years of Impact</div>
-    </div>
-  </section>
-
-  <!-- Programs Section -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Our Programs</h2>
-        <p class="section-description">Discover our comprehensive range of educational programs designed to meet diverse learning needs and create opportunities for success.</p>
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-cols-2 grid-lg-cols-4 gap-md">
+          <div class="stat-tile">
+            <div class="stat-value">15,000+</div>
+            <div class="stat-label">Students Reached</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-value">100+</div>
+            <div class="stat-label">Educators Trained</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-value">50+</div>
+            <div class="stat-label">Communities</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-value">200+</div>
+            <div class="stat-label">Active Volunteers</div>
+          </div>
+        </div>
       </div>
-      
-      <div class="grid grid-cols-3">
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-            </svg>
-            <h3 class="card-title">Youth Education</h3>
-            <p class="card-description">Comprehensive learning programs for children and teenagers</p>
-          </div>
-          <div class="card-content">
-            <p>Our youth education programs provide foundational skills and knowledge to help young learners excel academically and develop critical thinking abilities.</p>
-          </div>
-          <div class="card-footer">
-            <a href="programs.html" class="btn btn-secondary">Learn More</a>
-          </div>
-        </article>
+    </section>
 
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
-            <h3 class="card-title">Adult Literacy</h3>
-            <p class="card-description">Building essential reading and writing skills for adults</p>
-          </div>
-          <div class="card-content">
-            <p>Empowering adults with literacy skills to improve their quality of life, career prospects, and ability to support their families' education.</p>
-          </div>
-          <div class="card-footer">
-            <a href="programs.html" class="btn btn-secondary">Learn More</a>
-          </div>
-        </article>
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Our Programs</h2>
+          <p class="section-description">Comprehensive initiatives designed to empower learners and strengthen communities.</p>
+        </div>
+        <div class="grid grid-cols-3 gap-md">
+          <article class="card card-hover">
+            <div class="card-header">
+              <div class="accent-icon">📚</div>
+              <h3 class="card-title">Youth Literacy Initiative</h3>
+              <p class="card-description">After‑school reading programs and tutoring for K‑8 students.</p>
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-link" href="programs.html">Learn more →</a>
+            </div>
+          </article>
 
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <h3 class="card-title">Digital Skills</h3>
-            <p class="card-description">Technology training for the modern workforce</p>
-          </div>
-          <div class="card-content">
-            <p>Equipping learners with essential digital literacy and technical skills needed to thrive in today's technology-driven world.</p>
-          </div>
-          <div class="card-footer">
-            <a href="programs.html" class="btn btn-secondary">Learn More</a>
-          </div>
-        </article>
+          <article class="card card-hover">
+            <div class="card-header">
+              <div class="accent-icon">🎓</div>
+              <h3 class="card-title">Adult Education Pathways</h3>
+              <p class="card-description">GED prep, vocational training, and digital literacy courses.</p>
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-link" href="programs.html">Learn more →</a>
+            </div>
+          </article>
+
+          <article class="card card-hover">
+            <div class="card-header">
+              <div class="accent-icon">🤝</div>
+              <h3 class="card-title">Community Workshops</h3>
+              <p class="card-description">Free workshops on finance, health education, and civic engagement.</p>
+            </div>
+            <div class="card-footer">
+              <a class="btn btn-link" href="programs.html">Learn more →</a>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Impact Section -->
-  <section class="section" style="background-color: var(--color-muted);">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Our Impact</h2>
-        <p class="section-description">See how we're making a difference in communities through education and empowerment.</p>
+    <section class="section">
+      <div class="container">
+        <div class="section-header row-between">
+          <div>
+            <h2 class="section-title">Latest from the Blog</h2>
+            <p class="section-description">Stories, insights, and updates from our community.</p>
+          </div>
+          <div class="hide-sm">
+            <a class="btn btn-link" href="blog.html">See all posts →</a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-md">
+          <article class="card card-hover">
+            <div class="card-header">
+              <div class="meta">January 15, 2025</div>
+              <h3 class="card-title"><a href="blog.html" class="text-link">How Community‑Led Learning Transforms Education</a></h3>
+              <p class="card-description">The power of local ownership in building sustainable programs that meet real needs.</p>
+            </div>
+            <div class="card-footer">
+              <span class="badge">Education</span>
+              <span class="badge">Community</span>
+            </div>
+          </article>
+
+          <article class="card card-hover">
+            <div class="card-header">
+              <div class="meta">January 8, 2025</div>
+              <h3 class="card-title"><a href="blog.html" class="text-link">Success Story: Maria’s Journey to Teaching</a></h3>
+              <p class="card-description">From adult learner to certified educator—ripple effects across generations.</p>
+            </div>
+            <div class="card-footer">
+              <span class="badge">Impact</span>
+              <span class="badge">Stories</span>
+            </div>
+          </article>
+
+          <article class="card card-hover">
+            <div class="card-header">
+              <div class="meta">December 20, 2024</div>
+              <h3 class="card-title"><a href="blog.html" class="text-link">2024 Year in Review: Celebrating Our Achievements</a></h3>
+              <p class="card-description">A year of growth, partnership, and impact across 50+ communities.</p>
+            </div>
+            <div class="card-footer">
+              <span class="badge">Annual Report</span>
+              <span class="badge">Impact</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="text-center show-sm-only mt-md">
+          <a class="btn btn-link" href="blog.html">See all posts →</a>
+        </div>
       </div>
-      
-      <div class="grid grid-cols-2">
-        <article class="card">
-          <div class="card-header">
-            <h3 class="card-title">Community Transformation</h3>
-          </div>
-          <div class="card-content">
-            <p>Through our programs, we've helped transform entire communities by providing access to quality education. Our graduates go on to become leaders, entrepreneurs, and advocates for change in their neighborhoods.</p>
-          </div>
-        </article>
+    </section>
 
-        <article class="card">
-          <div class="card-header">
-            <h3 class="card-title">Economic Empowerment</h3>
-          </div>
-          <div class="card-content">
-            <p>Education opens doors to better employment opportunities. Our programs have helped thousands secure meaningful employment and increase their earning potential by an average of 40%.</p>
-          </div>
-        </article>
+    <section class="band-primary">
+      <div class="container band-row">
+        <div class="band-item">📈 <span>15,000+ students</span></div>
+        <div class="band-sep">•</div>
+        <div class="band-item">📈 <span>100+ educators trained</span></div>
+        <div class="band-sep">•</div>
+        <div class="band-item">📈 <span>50+ communities</span></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CTA Section -->
-  <section class="section">
-    <div class="container text-center">
-      <h2 class="section-title">Ready to Make a Difference?</h2>
-      <p class="section-description mb-5">Join us in our mission to empower individuals through education. Whether you want to volunteer, donate, or participate in our programs, there's a place for you.</p>
-      <div>
-        <a href="contact.html" class="btn btn-primary">Get Started</a>
-        <a href="about.html" class="btn btn-secondary">Learn More</a>
+    <section class="section">
+      <div class="container">
+        <div class="section-header row-between">
+          <div>
+            <h2 class="section-title">Global Education Resources</h2>
+            <p class="section-description">Explore organizations and tools expanding access to quality education.</p>
+          </div>
+          <div class="hide-sm">
+            <a class="btn btn-link" href="resources.html">View all resources →</a>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-3 gap-md">
+          <a class="resource-tile card-hover" href="https://www.unesco.org/en/education" target="_blank" rel="noopener">
+            <div class="resource-icon">↗</div>
+            <div>
+              <h3 class="resource-title">UNESCO</h3>
+              <p class="resource-desc">Leading global efforts to ensure inclusive and equitable education for all.</p>
+            </div>
+          </a>
+
+          <a class="resource-tile card-hover" href="https://www.unicef.org/education" target="_blank" rel="noopener">
+            <div class="resource-icon">↗</div>
+            <div>
+              <h3 class="resource-title">UNICEF Education</h3>
+              <p class="resource-desc">Providing children with access to quality education in 190+ countries.</p>
+            </div>
+          </a>
+
+          <a class="resource-tile card-hover" href="https://www.right-to-education.org/" target="_blank" rel="noopener">
+            <div class="resource-icon">↗</div>
+            <div>
+              <h3 class="resource-title">Right to Education Initiative</h3>
+              <p class="resource-desc">Promoting mobilization and accountability on the right to education.</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="text-center show-sm-only mt-md">
+          <a class="btn btn-link" href="resources.html">View all resources →</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
+    <section class="band-cta">
+      <div class="container text-center">
+        <h2 class="band-cta-title">Join a workshop or volunteer with us</h2>
+        <p class="band-cta-subtitle">
+          Be part of the change. Connect with your local community and help create educational opportunities for all.
+        </p>
+        <a class="btn btn-secondary" href="contact.html">Get Started Today</a>
+      </div>
+    </section>
+  </main>
+
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
@@ -197,7 +264,6 @@
   </footer>
 
   <script>
-    // Mobile navigation toggle
     document.querySelector('.nav-toggle').addEventListener('click', function() {
       document.querySelector('.nav-links').classList.toggle('active');
     });
