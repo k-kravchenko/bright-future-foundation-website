@@ -3,120 +3,204 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ocean Guardians - Protecting Our Oceans</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Bright Future Foundation - Empowering individuals through accessible, high-quality education">
+  <title>Bright Future Foundation - Home</title>
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-  
-   ============================================
-       HEADER AND NAVIGATION
-       ============================================ 
-  <header>
-    <div class="header-container">
-      <div class="logo">
-        <h1>Ocean Guardians</h1>
-      </div>
-      <nav>
-        <ul>
+  <!-- Header -->
+  <header class="header">
+    <nav class="container">
+      <div class="nav">
+        <a href="index.html" class="logo">Bright Future Foundation</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="blog/index.html">Blog</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-   ============================================
-       MAIN CONTENT AREA
-       ============================================ 
-  <main>
-    
-     Hero section with main message 
-    <section class="hero">
-      <h2>Protecting Our Oceans from Plastic Pollution</h2>
-      <p>Join us in the fight against ocean plastic pollution. Together, we can make a difference for marine life and future generations.</p>
-      <a href="about.html" class="btn">Learn More</a>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Empowering Communities Through Education</h1>
+      <p class="text-muted">Join us in creating lasting change through accessible, high-quality education programs that transform lives and strengthen communities.</p>
+      <div>
+        <a href="programs.html" class="btn btn-primary">Explore Programs</a>
+        <a href="contact.html" class="btn btn-secondary">Get Involved</a>
+      </div>
+    </div>
+  </section>
 
-     Mission statement section 
-    <section class="content-section">
-      <h2>Our Mission</h2>
-      <p>Ocean Guardians is a non-profit organization dedicated to reducing plastic pollution in our oceans. We believe that through education, community action, and policy advocacy, we can create lasting change for our planet's marine ecosystems.</p>
+  <!-- Stats Section -->
+  <section class="stats">
+    <div class="stat">
+      <div class="stat-value">10,000+</div>
+      <div class="stat-label">Students Served</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">50+</div>
+      <div class="stat-label">Programs Offered</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">95%</div>
+      <div class="stat-label">Success Rate</div>
+    </div>
+    <div class="stat">
+      <div class="stat-value">25</div>
+      <div class="stat-label">Years of Impact</div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Programs</h2>
+        <p class="section-description">Discover our comprehensive range of educational programs designed to meet diverse learning needs and create opportunities for success.</p>
+      </div>
       
-       Image placeholder 
-      <img src="/placeholder.svg?height=400&width=800" alt="Ocean conservation efforts" class="content-image">
+      <div class="grid grid-cols-3">
+        <article class="card">
+          <div class="card-header">
+            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+            <h3 class="card-title">Youth Education</h3>
+            <p class="card-description">Comprehensive learning programs for children and teenagers</p>
+          </div>
+          <div class="card-content">
+            <p>Our youth education programs provide foundational skills and knowledge to help young learners excel academically and develop critical thinking abilities.</p>
+          </div>
+          <div class="card-footer">
+            <a href="programs.html" class="btn btn-secondary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+            <h3 class="card-title">Adult Literacy</h3>
+            <p class="card-description">Building essential reading and writing skills for adults</p>
+          </div>
+          <div class="card-content">
+            <p>Empowering adults with literacy skills to improve their quality of life, career prospects, and ability to support their families' education.</p>
+          </div>
+          <div class="card-footer">
+            <a href="programs.html" class="btn btn-secondary">Learn More</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-header">
+            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            <h3 class="card-title">Digital Skills</h3>
+            <p class="card-description">Technology training for the modern workforce</p>
+          </div>
+          <div class="card-content">
+            <p>Equipping learners with essential digital literacy and technical skills needed to thrive in today's technology-driven world.</p>
+          </div>
+          <div class="card-footer">
+            <a href="programs.html" class="btn btn-secondary">Learn More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Section -->
+  <section class="section" style="background-color: var(--color-muted);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our Impact</h2>
+        <p class="section-description">See how we're making a difference in communities through education and empowerment.</p>
+      </div>
       
-      <h3>What We Do</h3>
-       Unordered list of activities 
-      <ul>
-        <li>Organize beach cleanup events in coastal communities</li>
-        <li>Educate schools and communities about plastic pollution</li>
-        <li>Advocate for stronger environmental policies</li>
-        <li>Support research on ocean health and marine life</li>
-        <li>Partner with businesses to reduce single-use plastics</li>
-      </ul>
-    </section>
+      <div class="grid grid-cols-2">
+        <article class="card">
+          <div class="card-header">
+            <h3 class="card-title">Community Transformation</h3>
+          </div>
+          <div class="card-content">
+            <p>Through our programs, we've helped transform entire communities by providing access to quality education. Our graduates go on to become leaders, entrepreneurs, and advocates for change in their neighborhoods.</p>
+          </div>
+        </article>
 
-     /* Statistics section with table */
-    <section class="content-section">
-      <h2>The Impact of Plastic Pollution</h2>
-      <p>The numbers are staggering. Here's a look at how plastic pollution affects our oceans:</p>
+        <article class="card">
+          <div class="card-header">
+            <h3 class="card-title">Economic Empowerment</h3>
+          </div>
+          <div class="card-content">
+            <p>Education opens doors to better employment opportunities. Our programs have helped thousands secure meaningful employment and increase their earning potential by an average of 40%.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section">
+    <div class="container text-center">
+      <h2 class="section-title">Ready to Make a Difference?</h2>
+      <p class="section-description mb-5">Join us in our mission to empower individuals through education. Whether you want to volunteer, donate, or participate in our programs, there's a place for you.</p>
+      <div>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+        <a href="about.html" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Bright Future Foundation</h3>
+          <p>Empowering individuals and strengthening communities through accessible, high-quality education.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul class="footer-links">
+            <li>Email: info@brightfuture.org</li>
+            <li>Phone: (555) 123-4567</li>
+            <li>Address: 123 Education St, Learning City, LC 12345</li>
+          </ul>
+        </div>
+      </div>
       
-       /* Table displaying statistics */
-      <table>
-        <thead>
-          <tr>
-            <th>Statistic</th>
-            <th>Impact</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Plastic in oceans</td>
-            <td>Over 8 million tons enter annually</td>
-          </tr>
-          <tr>
-            <td>Marine species affected</td>
-            <td>More than 800 species impacted</td>
-          </tr>
-          <tr>
-            <td>Plastic decomposition time</td>
-            <td>Up to 450 years for some items</td>
-          </tr>
-          <tr>
-            <td>Microplastics in seafood</td>
-            <td>Found in 90% of tested samples</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-     /* Call to action section */
-    <section class="content-section">
-      <h2>Get Involved</h2>
-      <p>There are many ways you can help protect our oceans. Whether you volunteer at a beach cleanup, reduce your plastic use, or spread awareness, every action counts.</p>
-      <a href="contact.html" class="btn">Contact Us</a>
-    </section>
-
-  </main>
-
-   ============================================
-       FOOTER
-       ============================================ 
-  <footer>
-    <div class="footer-container">
-      <nav class="footer-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="blog/index.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-      <p>&copy; 2025 Ocean Guardians. All rights reserved. | <a href="https://www.oceanconservancy.org/" target="_blank" style="color: #2A9D8F;">Partner: Ocean Conservancy</a></p>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bright Future Foundation. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
+  <script>
+    // Mobile navigation toggle
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
 </body>
 </html>
