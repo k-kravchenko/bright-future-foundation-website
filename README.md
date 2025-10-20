@@ -1,1 +1,1 @@
-https://k-kravchenko.github.io/bright-future-foundation-website/
+k-kravchenko.github.io 
