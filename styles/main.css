@@ -628,6 +628,14 @@ a:hover {
 .card-header   { margin-bottom: var(--spacing-md); }
 .card-actions  { margin-top: auto; }
 
+.form {
+  background-color: var(--color-card);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  height: 100%;
+}
+
 /* Responsive tweaks */
 @media (max-width: 768px) {
   .section-head { align-items: flex-start; }
