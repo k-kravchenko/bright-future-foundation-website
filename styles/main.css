@@ -836,3 +836,79 @@ text-align: center;
 .band-cta-subtitle { max-width: 42rem; margin: .5rem auto 1rem; color: rgba(255,255,255,.92); }
 .cta-actions { display: inline-flex; gap: var(--spacing-md); flex-wrap: wrap; align-items: center; justify-content: center; }
 
+/* === Blog Page === */
+
+/* Subtle gradient hero */
+.blog-hero {
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--color-primary) 8%, var(--color-muted)),
+    var(--color-background)
+  );
+}
+
+/* Featured post two-column layout on large screens */
+.grid-cols-2--lg { grid-template-columns: 1fr; }
+@media (min-width: 1024px) {
+  .grid-cols-2--lg { grid-template-columns: 1fr 1fr; }
+}
+
+/* Responsive grid helpers for the posts list */
+.grid-cols-2--md,
+.grid-cols-3--lg { grid-template-columns: 1fr; }
+@media (min-width: 768px)  { .grid-cols-2--md { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .grid-cols-3--lg { grid-template-columns: repeat(3, 1fr); } }
+
+/* Post visuals */
+.post-cover {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  display: block;
+}
+.post-cover--featured {
+  aspect-ratio: auto;
+  height: 100%;
+  max-height: 420px;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+}
+
+/* Meta row and chips (category + date) */
+.post-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: var(--color-muted-foreground);
+  margin-bottom: var(--spacing-sm);
+  font-size: 0.95rem;
+}
+.chip {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.25rem 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: color-mix(in srgb, var(--color-primary) 12%, transparent);
+  color: var(--color-primary);
+}
+.meta-sep { opacity: 0.6; }
+
+/* Featured post text column spacing */
+.post-body {
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Newsletter form alignment */
+.newsletter-form {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-top: var(--spacing-xl);
+}
