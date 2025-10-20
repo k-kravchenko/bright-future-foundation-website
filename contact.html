@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Contact — Bright Future Foundation</title>
-  <!-- Your global stylesheet -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bright Future Foundation - Empowering individuals through accessible, high-quality education">
+  <title>Bright Future Foundation - Home</title>
   <link rel="stylesheet" href="styles/main.css">
-  <!-- Small page-specific additions (optional) -->
-  <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="/">Bright Future Foundation</a>
-      <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/programs">Programs</a>
-        <a href="/blog">Blog</a>
-        <a href="/resources">Resources</a>
-        <a href="/contact" aria-current="page">Contact</a>
-      </nav>
-    </div>
+  <!-- Header -->
+  <header class="header">
+    <nav class="container">
+      <div class="nav">
+        <a href="index.html" class="logo">Bright Future Foundation</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <main>
@@ -153,34 +156,59 @@
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="cta">
-      <div class="container text-center">
-        <h2 class="cta-title">Ready to Make an Impact?</h2>
-        <p class="cta-lead">
-          Whether you want to volunteer, donate, or partner with us, there are many ways to get involved.
-        </p>
-        <div class="cta-actions">
-          <a class="btn btn-secondary btn-lg" href="mailto:info@brightfuture.org">Become a Volunteer</a>
-          <a class="btn btn-outline btn-lg" href="mailto:info@brightfuture.org">Make a Donation</a>
+     <!-- CTA Section -->
+  <section class="section">
+    <div class="container text-center">
+      <h2 class="section-title">Ready to Make a Difference?</h2>
+      <p class="section-description mb-5">Join us in our mission to empower individuals through education. Whether you want to volunteer, donate, or participate in our programs, there's a place for you.</p>
+      <div>
+        <a href="contact.html" class="btn btn-primary">Get Started</a>
+        <a href="about.html" class="btn btn-secondary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Bright Future Foundation</h3>
+          <p>Empowering individuals and strengthening communities through accessible, high-quality education.</p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul class="footer-links">
+            <li>Email: info@brightfuture.org</li>
+            <li>Phone: (555) 123-4567</li>
+            <li>Address: 123 Education St, Learning City, LC 12345</li>
+          </ul>
         </div>
       </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Bright Future Foundation</p>
-      <nav class="footer-nav">
-        <a href="/privacy">Privacy</a>
-        <a href="/terms">Terms</a>
-        <a href="/contact" aria-current="page">Contact</a>
-      </nav>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bright Future Foundation. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
   <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
+    // Mobile navigation toggle
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
   </script>
 </body>
 </html>
