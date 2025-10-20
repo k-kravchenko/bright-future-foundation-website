@@ -534,3 +534,103 @@ a:hover {
     font-size: 1rem;
   }
 }
+/* === Resources Page Additions === */
+
+/* Badges (small emoji tiles beside section titles) */
+.badge {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  user-select: none;
+}
+.badge-primary   { background: color-mix(in srgb, var(--color-primary) 12%, transparent); }
+.badge-secondary { background: color-mix(in srgb, var(--color-secondary) 12%, transparent); }
+.badge-accent    { background: color-mix(in srgb, var(--color-accent) 12%, transparent); }
+
+/* Section variant for light-muted background between blocks */
+.section-muted {
+  background: var(--color-muted);
+}
+
+/* Card variations for subtle surface difference */
+.card-surface {
+  background: color-mix(in srgb, var(--color-muted) 35%, var(--color-card));
+}
+
+/* Button variants used for “Visit Site” + CTA secondary */
+.btn-outline {
+  background: transparent;
+  color: var(--color-foreground);
+  border-color: var(--color-border);
+}
+.btn-outline:hover {
+  background: var(--color-muted);
+  color: var(--color-foreground);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-primary);
+  border: 2px solid color-mix(in srgb, var(--color-primary) 55%, transparent);
+}
+.btn-ghost:hover {
+  background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+  color: var(--color-primary-dark);
+}
+
+/* Section header layout used on the resources page */
+.section-head {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+}
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+/* Helpful utilities for copy blocks */
+.maxw-3xl { max-width: 48rem; margin-inline: auto; }
+.text-muted, .muted { color: var(--color-muted-foreground); }
+
+/* CTA banner at the bottom of the page */
+.cta {
+  background: var(--color-primary);
+  color: #fff;
+  padding: var(--spacing-3xl) 0;
+  text-align: center;
+}
+.cta-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: var(--spacing-sm);
+}
+.cta-lead {
+  max-width: 42rem;
+  margin: 0 auto var(--spacing-lg);
+  color: rgba(255,255,255,0.92);
+}
+.cta-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn.btn-secondary.btn-lg { padding: var(--spacing-md) var(--spacing-xl); }
+.btn.btn-ghost.btn-lg     { padding: var(--spacing-md) var(--spacing-xl); }
+
+/* Card internal spacing parity with site scale */
+.card-header   { margin-bottom: var(--spacing-md); }
+.card-actions  { margin-top: auto; }
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .section-head { align-items: flex-start; }
+  .section-title { font-size: 1.75rem; }
+}
