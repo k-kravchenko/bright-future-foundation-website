@@ -757,3 +757,82 @@ text-align: center;
   color: var(--color-primary-dark);
   text-decoration: underline;
 }
+
+/* === About Page Additions === */
+
+/* HERO */
+.about-hero {
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--color-primary) 8%, var(--color-muted)),
+    var(--color-background)
+  );
+}
+.about-hero-desc { max-width: 48rem; margin-inline: auto; }
+
+/* STORY LAYOUT */
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-xl);
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .about-story { grid-template-columns: 1.15fr 1fr; }
+}
+.about-story-text .prose-lg { line-height: 1.8; font-size: 1.05rem; }
+.about-story-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-sm);
+}
+.about-img {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  display: block;
+}
+.about-img-offset { margin-top: var(--spacing-md); }
+
+/* STATS (reuses stat-tile from home additions if present) */
+.stat-tile {
+  border: 1px solid var(--color-border);
+  background: var(--color-card);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1rem;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,.03);
+  height: 100%;
+}
+.stat-value { font-weight: 800; font-size: 1.75rem; color: var(--color-primary); }
+.stat-label { color: var(--color-muted-foreground); font-size: .95rem; margin-top: .25rem; }
+
+/* VALUES GRID HELPERS */
+.grid-cols-3--lg { grid-template-columns: 1fr; }
+@media (min-width: 1024px) {
+  .grid-cols-3--lg { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* TEAM */
+.team-card { overflow: hidden; }
+.team-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+.team-name { font-weight: 700; }
+.team-role { margin-top: .25rem; }
+
+.center { text-align: center; }
+.h2 { font-size: clamp(1.6rem, 1.2vw + 1rem, 2.25rem); font-weight: 800; }
+.mb-lg { margin-bottom: var(--spacing-xl); }
+.mt-md { margin-top: var(--spacing-md); }
+
+/* CTA band (reuses your brand primary) */
+.band-cta { background: var(--color-primary); color: #fff; padding: var(--spacing-2xl) 0; text-align: center; }
+.band-cta-title { font-size: clamp(1.75rem, 1.5vw + 1rem, 2.5rem); font-weight: 800; }
+.band-cta-subtitle { max-width: 42rem; margin: .5rem auto 1rem; color: rgba(255,255,255,.92); }
+.cta-actions { display: inline-flex; gap: var(--spacing-md); flex-wrap: wrap; align-items: center; justify-content: center; }
+
