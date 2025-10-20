@@ -541,8 +541,6 @@ a:hover {
 
 /* Badges (small emoji tiles beside section titles) */
 .badge {
-  width: 2.5rem;
-  height: 2.5rem;
   border-radius: var(--radius);
   display: inline-flex;
   align-items: center;

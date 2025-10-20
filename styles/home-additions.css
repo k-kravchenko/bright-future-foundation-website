@@ -14,7 +14,7 @@
   line-height: 1.15;
 }
 .hero-subtitle { max-width: 48rem; margin-top: .75rem; }
-.hero-actions { margin-top: 1.25rem; display: flex; gap: .75rem; flex-wrap: wrap; }
+.hero-actions { margin-top: 1.25rem; display: flex; gap: .75rem; flex-wrap: wrap; justify-content: center; }
 .btn.btn-outline {
   background: transparent;
   border: 2px solid rgba(255,255,255,.8);
