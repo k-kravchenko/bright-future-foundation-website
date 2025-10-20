@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Bright Future Foundation</title>
+  <!-- Your global stylesheet -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Small page-specific additions (optional) -->
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">Bright Future Foundation</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/programs">Programs</a>
+        <a href="/blog">Blog</a>
+        <a href="/resources">Resources</a>
+        <a href="/contact" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero hero-soft">
+      <div class="container text-center">
+        <h1 class="title">Get in Touch</h1>
+        <p class="lead maxw-3xl">
+          We'd love to hear from you. Reach out to learn more about our programs or get involved.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact form + info -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-2 lg-align-stretch gap-xl">
+          <!-- Form card -->
+          <article class="card card-interactive">
+            <header class="card-header">
+              <h2 class="card-title text-2xl">Send Us a Message</h2>
+              <p class="card-desc">Fill out the form below and we'll get back to you within 24 hours.</p>
+            </header>
+            <div class="card-content">
+              <form class="vstack-6" action="#" method="post">
+                <div class="form-field">
+                  <label for="name" class="label">Name</label>
+                  <input id="name" name="name" type="text" class="input" placeholder="Your full name" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="email" class="label">Email</label>
+                  <input id="email" name="email" type="email" class="input" placeholder="your.email@example.com" required>
+                </div>
+
+                <div class="form-field">
+                  <label for="message" class="label">Message</label>
+                  <textarea id="message" name="message" class="textarea" rows="6" placeholder="Tell us how we can help..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-secondary btn-lg w-full">Send Message</button>
+              </form>
+            </div>
+          </article>
+
+          <!-- Info column -->
+          <div class="vstack-8">
+            <!-- Contact info -->
+            <article class="card card-interactive">
+              <header class="card-header">
+                <h2 class="card-title text-2xl">Contact Information</h2>
+                <p class="card-desc">Reach out to us through any of these channels</p>
+              </header>
+              <div class="card-content vstack-6">
+                <div class="hstack-4 align-start">
+                  <div class="icon-tile">
+                    <span aria-hidden="true">✉️</span>
+                  </div>
+                  <div>
+                    <h3 class="text-md">Email</h3>
+                    <p><a class="text-link" href="mailto:info@brightfuture.org">info@brightfuture.org</a></p>
+                  </div>
+                </div>
+
+                <div class="hstack-4 align-start">
+                  <div class="icon-tile">
+                    <span aria-hidden="true">📞</span>
+                  </div>
+                  <div>
+                    <h3 class="text-md">Phone</h3>
+                    <p><a class="text-link" href="tel:+15551234567">(555) 123-4567</a></p>
+                  </div>
+                </div>
+
+                <div class="hstack-4 align-start">
+                  <div class="icon-tile">
+                    <span aria-hidden="true">📍</span>
+                  </div>
+                  <div>
+                    <h3 class="text-md">Address</h3>
+                    <p class="muted">
+                      123 Education Street<br/>
+                      Community City, ST 12345
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- Team list -->
+            <article class="card card-interactive">
+              <header class="card-header">
+                <h2 class="card-title text-2xl">Our Team</h2>
+                <p class="card-desc">Connect directly with our team members</p>
+              </header>
+              <div class="card-content vstack-4">
+                <div class="team-row">
+                  <div>
+                    <h3 class="text-md">Sarah Johnson</h3>
+                    <p class="muted text-sm">Executive Director</p>
+                  </div>
+                  <a class="text-link" href="mailto:sarah@brightfuture.org">Email</a>
+                </div>
+                <div class="team-row">
+                  <div>
+                    <h3 class="text-md">Michael Chen</h3>
+                    <p class="muted text-sm">Program Coordinator</p>
+                  </div>
+                  <a class="text-link" href="mailto:michael@brightfuture.org">Email</a>
+                </div>
+                <div class="team-row">
+                  <div>
+                    <h3 class="text-md">Emily Rodriguez</h3>
+                    <p class="muted text-sm">Community Outreach</p>
+                  </div>
+                  <a class="text-link" href="mailto:emily@brightfuture.org">Email</a>
+                </div>
+                <div class="team-row">
+                  <div>
+                    <h3 class="text-md">David Thompson</h3>
+                    <p class="muted text-sm">Education Director</p>
+                  </div>
+                  <a class="text-link" href="mailto:david@brightfuture.org">Email</a>
+                </div>
+              </div>
+              <div class="card-footer text-sm muted text-center">Last revised: March 15, 2025</div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container text-center">
+        <h2 class="cta-title">Ready to Make an Impact?</h2>
+        <p class="cta-lead">
+          Whether you want to volunteer, donate, or partner with us, there are many ways to get involved.
+        </p>
+        <div class="cta-actions">
+          <a class="btn btn-secondary btn-lg" href="mailto:info@brightfuture.org">Become a Volunteer</a>
+          <a class="btn btn-outline btn-lg" href="mailto:info@brightfuture.org">Make a Donation</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Bright Future Foundation</p>
+      <nav class="footer-nav">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/contact" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
