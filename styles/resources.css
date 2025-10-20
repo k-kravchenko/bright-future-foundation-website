@@ -1,16 +1,4 @@
 /* ---------- Base ---------- */
-:root{
-  --bg: #0b0b0c;        /* background */
-  --surface: #121316;   /* elevated surfaces */
-  --card: #14161a;
-  --text: #ffffff;
-  --muted: #9aa3b2;
-  --primary: #448FFF;   /* brand primary */
-  --secondary: #A577F4; /* brand secondary */
-  --accent: #4ad6a8;    /* accent for icons */
-  --border: #24262c;
-  --white: #ffffff;
-}
 
 * { box-sizing: border-box; }
 html, body { height: 100%; }
