@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="News & Stories — Bright Future Foundation">
+  <title>News & Stories — Bright Future Foundation</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- Header (same markup as your index.html) -->
+  <header class="header">
+    <nav class="container">
+      <div class="nav">
+        <a href="index.html" class="logo">Bright Future Foundation</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="blog.html" aria-current="page">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Blog Hero -->
+    <section class="section blog-hero">
+      <div class="container">
+        <div class="center">
+          <h1 class="section-title">News &amp; Stories</h1>
+          <p class="section-description">
+            Stay updated with our latest programs, success stories, and community impact.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="section">
+      <div class="container">
+        <article class="card">
+          <div class="grid grid-cols-1 grid-cols-2--lg">
+            <img class="post-cover post-cover--featured"
+                 src="images/celebration-community-event.jpg"
+                 alt="Celebrating 10 Years of Impact">
+            <div class="post-body">
+              <div class="post-meta">
+                <span class="chip">Milestone</span>
+                <span class="meta-sep">•</span>
+                <span>March 15, 2025</span>
+              </div>
+              <h2 class="card-title">Celebrating 10 Years of Impact</h2>
+              <p class="card-description">
+                Reflecting on a decade of educational transformation and the communities we've served together.
+              </p>
+              <p class="mb-0">
+                <a class="text-link" href="#">Read More →</a>
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Posts Grid -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-cols-1 grid-cols-2--md grid-cols-3--lg">
+          <!-- Post card -->
+          <article class="card">
+            <img class="post-cover" src="images/people-using-computers-in-classroom.jpg"
+                 alt="New Digital Literacy Program Launch">
+            <div class="card-header">
+              <div class="post-meta">
+                <span class="chip">Programs</span>
+                <span class="meta-sep">•</span>
+                <span>March 8, 2025</span>
+              </div>
+              <h3 class="card-title">New Digital Literacy Program Launch</h3>
+              <p class="card-description">
+                Introducing our expanded technology training initiative to help bridge the digital divide.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a class="text-link" href="#">Read More →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="post-cover" src="images/volunteer-mentor-with-student.jpg"
+                 alt="Volunteer Spotlight: Maria's Story">
+            <div class="card-header">
+              <div class="post-meta">
+                <span class="chip">Stories</span>
+                <span class="meta-sep">•</span>
+                <span>February 28, 2025</span>
+              </div>
+              <h3 class="card-title">Volunteer Spotlight: Maria's Story</h3>
+              <p class="card-description">Meet Maria, a dedicated volunteer changing lives one session at a time.</p>
+            </div>
+            <div class="card-footer">
+              <a class="text-link" href="#">Read More →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="post-cover" src="images/business-partnership-handshake.png"
+                 alt="Community Partnership Success">
+            <div class="card-header">
+              <div class="post-meta">
+                <span class="chip">Partnerships</span>
+                <span class="meta-sep">•</span>
+                <span>February 20, 2025</span>
+              </div>
+              <h3 class="card-title">Community Partnership Success</h3>
+              <p class="card-description">New opportunities for adult learners through local business collaboration.</p>
+            </div>
+            <div class="card-footer">
+              <a class="text-link" href="#">Read More →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="post-cover" src="images/children-playing-and-learning.jpg"
+                 alt="Early Childhood Education Research">
+            <div class="card-header">
+              <div class="post-meta">
+                <span class="chip">Research</span>
+                <span class="meta-sep">•</span>
+                <span>February 12, 2025</span>
+              </div>
+              <h3 class="card-title">Early Childhood Education Research</h3>
+              <p class="card-description">New findings on the long-term benefits of play-based learning.</p>
+            </div>
+            <div class="card-footer">
+              <a class="text-link" href="#">Read More →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img class="post-cover" src="images/community-gathering-outdoor-event.jpg"
+                 alt="Upcoming Community Events">
+            <div class="card-header">
+              <div class="post-meta">
+                <span class="chip">Events</span>
+                <span class="meta-sep">•</span>
+                <span>February 5, 2025</span>
+              </div>
+              <h3 class="card-title">Upcoming Community Events</h3>
+              <p class="card-description">Workshops, fundraisers, and celebrations happening this spring.</p>
+            </div>
+            <div class="card-footer">
+              <a class="text-link" href="#">Read More →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter CTA (reuses your .section and form styles) -->
+    <section class="section cta">
+      <div class="container center">
+        <h2 class="section-title">Stay Connected</h2>
+        <p class="section-description">
+          Subscribe for monthly updates on programs, events, and impact stories.
+        </p>
+        <form class="newsletter-form">
+          <div class="form-group">
+            <label for="email" class="form-label">Email address</label>
+            <input id="email" type="email" class="form-input" placeholder="you@example.com" required />
+          </div>
+          <button class="btn btn-primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (same markup as your index.html) -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Bright Future Foundation</h3>
+          <p>Empowering individuals and strengthening communities through accessible, high-quality education.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="blog.html" aria-current="page">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul class="footer-links">
+            <li>Email: info@brightfuture.org</li>
+            <li>Phone: (555) 123-4567</li>
+            <li>Address: 123 Education St, Learning City, LC 12345</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bright Future Foundation. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // mobile nav toggle (same behavior as index.html)
+    document.querySelector('.nav-toggle').addEventListener('click', function () {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
