@@ -9,7 +9,7 @@
   padding: 5rem 0 6rem;
 }
 .hero-title {
-  max-width: 46rem;
+  max-width: 64rem;
   font-size: clamp(2rem, 2vw + 1.5rem, 3rem);
   line-height: 1.15;
 }
