@@ -603,8 +603,8 @@ a:hover {
 
 /* CTA banner at the bottom of the page */
 .cta {
-  background: var(--color-primary);
-  color: #fff;
+  background:#f1f5f9;;
+  color: #000000;
   padding: var(--spacing-3xl) 0;
   text-align: center;
 }
