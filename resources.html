@@ -1,180 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Educational resources and materials from Bright Future Foundation">
-  <title>Resources - Bright Future Foundation</title>
-  <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Global Education Resources</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
   <!-- Header -->
-  <header class="header">
-    <nav class="container">
-      <div class="nav">
-        <a href="index.html" class="logo">Bright Future Foundation</a>
-        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="programs.html">Programs</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">Bright Future Foundation</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/programs">Programs</a>
+        <a href="/blog">Blog</a>
+        <a href="/resources" aria-current="page">Resources</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>Educational Resources</h1>
-      <p class="text-muted">Access free educational materials, guides, and tools to support your learning journey.</p>
-    </div>
-  </section>
-
-  <!-- Resources Section -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Learning Materials</h2>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container text-center">
+        <h1 class="title">Global Education Resources</h1>
+        <p class="lead">
+          A curated collection of organizations, research, and tools to help you deepen your
+          understanding of global education issues and find meaningful ways to get involved in
+          creating lasting change.
+        </p>
       </div>
-      
-      <div class="grid grid-cols-3">
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-            </svg>
-            <h3 class="card-title">Reading Guides</h3>
-          </div>
-          <div class="card-content">
-            <p>Comprehensive reading materials and guides for learners at all levels, from basic literacy to advanced comprehension.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Download</a>
-          </div>
-        </article>
+    </section>
 
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
-            </svg>
-            <h3 class="card-title">Math Worksheets</h3>
-          </div>
-          <div class="card-content">
-            <p>Practice worksheets covering fundamental math concepts, from basic arithmetic to algebra and geometry.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Download</a>
-          </div>
-        </article>
+    <!-- Global Organizations -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-primary" aria-hidden="true">🌐</div>
+          <h2 class="section-title">Global Organizations</h2>
+        </div>
+        <p class="muted maxw-3xl">
+          Major NGOs and international agencies working to expand access to quality education worldwide.
+        </p>
 
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
-            <h3 class="card-title">Digital Tools</h3>
-          </div>
-          <div class="card-content">
-            <p>Access to online learning platforms, educational software, and digital resources to enhance your studies.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Access</a>
-          </div>
-        </article>
+        <div class="grid cards">
+          <!-- Card -->
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">UNESCO</h3>
+              <p class="card-desc">
+                The United Nations Educational, Scientific and Cultural Organization leads international efforts to
+                ensure inclusive and equitable quality education for all.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://www.unesco.org/en/education" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
 
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-            </svg>
-            <h3 class="card-title">Video Tutorials</h3>
-          </div>
-          <div class="card-content">
-            <p>Watch instructional videos covering various subjects and skills, perfect for visual learners.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Watch</a>
-          </div>
-        </article>
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">UNICEF Education</h3>
+              <p class="card-desc">
+                UNICEF works in over 190 countries to provide children with access to quality education, especially
+                in emergencies and conflict zones.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://www.unicef.org/education" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
 
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-            </svg>
-            <h3 class="card-title">Study Guides</h3>
-          </div>
-          <div class="card-content">
-            <p>Comprehensive study guides and exam preparation materials to help you succeed in your educational goals.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Download</a>
-          </div>
-        </article>
-
-        <article class="card">
-          <div class="card-header">
-            <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-            </svg>
-            <h3 class="card-title">Community Forums</h3>
-          </div>
-          <div class="card-content">
-            <p>Connect with other learners, share experiences, and get support from our community of students and educators.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-secondary">Join</a>
-          </div>
-        </article>
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">Global Partnership for Education</h3>
+              <p class="card-desc">
+                The world's only partnership and fund focused on education in lower-income countries, mobilizing
+                resources and expertise.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://www.globalpartnership.org/" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Advocacy & Rights -->
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-secondary" aria-hidden="true">⚖️</div>
+          <h2 class="section-title">Advocacy &amp; Rights</h2>
+        </div>
+        <p class="muted maxw-3xl">
+          Organizations championing the right to education and driving policy change at local and global levels.
+        </p>
+
+        <div class="grid cards">
+          <article class="card card-surface">
+            <header class="card-header">
+              <h3 class="card-title">Right to Education Initiative</h3>
+              <p class="card-desc">
+                Promotes mobilization and accountability on the right to education and builds bridges between human
+                rights and education sectors.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://www.right-to-education.org/" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card card-surface">
+            <header class="card-header">
+              <h3 class="card-title">Education International</h3>
+              <p class="card-desc">
+                The global union federation representing 32 million teachers and education workers, advocating for
+                quality public education.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://www.ei-ie.org/" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card card-surface">
+            <header class="card-header">
+              <h3 class="card-title">Global Campaign for Education</h3>
+              <p class="card-desc">
+                A civil society movement working to end the global education crisis and ensure the right to quality
+                public education for all.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://campaignforeducation.org/en/" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research & Tools -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <div class="badge badge-accent" aria-hidden="true">📖</div>
+          <h2 class="section-title">Research &amp; Tools</h2>
+        </div>
+        <p class="muted maxw-3xl">
+          Data sources, teaching resources, and literacy initiatives to inform and enhance educational practice.
+        </p>
+
+        <div class="grid cards">
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">UNESCO Institute for Statistics</h3>
+              <p class="card-desc">
+                The official source of internationally comparable data on education, providing statistics and
+                indicators to inform policy decisions.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="http://uis.unesco.org/" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">World Bank Education</h3>
+              <p class="card-desc">
+                Comprehensive research, data, and analysis on global education systems, learning outcomes, and
+                education financing.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://www.worldbank.org/en/topic/education" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">Room to Read</h3>
+              <p class="card-desc">
+                Focuses on literacy and girls' education in low-income communities, providing books, teacher
+                training, and life skills programs.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://www.roomtoread.org/" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card">
+            <header class="card-header">
+              <h3 class="card-title">EdTech Hub</h3>
+              <p class="card-desc">
+                Research and innovation hub generating evidence on how to use technology to improve education in
+                low- and middle-income countries.
+              </p>
+            </header>
+            <div class="card-actions">
+              <a class="btn btn-outline" href="https://edtechhub.org/" target="_blank" rel="noopener noreferrer">
+                Visit Site <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container text-center">
+        <h2 class="cta-title">Ready to Make a Difference?</h2>
+        <p class="cta-lead">
+          Explore our programs to see how you can get involved locally, or subscribe to our blog for stories and
+          insights from the field.
+        </p>
+        <div class="cta-actions">
+          <a class="btn btn-secondary btn-lg" href="/programs">Explore Our Programs</a>
+          <a class="btn btn-ghost btn-lg" href="/blog">Read the Blog</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-section">
-          <h3>Bright Future Foundation</h3>
-          <p>Empowering individuals and strengthening communities through accessible, high-quality education.</p>
-        </div>
-        
-        <div class="footer-section">
-          <h3>Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="programs.html">Programs</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-section">
-          <h3>Contact</h3>
-          <ul class="footer-links">
-            <li>Email: info@brightfuture.org</li>
-            <li>Phone: (555) 123-4567</li>
-            <li>Address: 123 Education St, Learning City, LC 12345</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <p>&copy; 2025 Bright Future Foundation. All rights reserved.</p>
-      </div>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Bright Future Foundation</p>
+      <nav class="footer-nav">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="/contact">Contact</a>
+      </nav>
     </div>
   </footer>
 
   <script>
-    document.querySelector('.nav-toggle').addEventListener('click', function() {
-      document.querySelector('.nav-links').classList.toggle('active');
-    });
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
