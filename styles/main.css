@@ -169,7 +169,7 @@ a:hover {
 
 .hero p {
   font-size: 1.25rem;
-  color: var(--color-muted-foreground);
+  color: #f1f1f1;
   max-width: 800px;
   margin: 0 auto var(--spacing-xl);
 }
