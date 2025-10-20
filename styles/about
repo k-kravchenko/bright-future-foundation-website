@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="About — Bright Future Foundation">
+  <title>About — Bright Future Foundation</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <!-- Header (same markup/pattern as index.html) -->
+  <header class="header">
+    <nav class="container">
+      <div class="nav">
+        <a href="index.html" class="logo">Bright Future Foundation</a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="section about-hero">
+      <div class="container center">
+        <h1 class="section-title">About Us</h1>
+        <p class="section-description about-hero-desc">
+          Our mission is to empower individuals and strengthen communities through accessible, high-quality
+          education that transforms lives and creates lasting opportunities.
+        </p>
+      </div>
+    </section>
+
+    <!-- STORY (text + images) -->
+    <section class="section section-muted">
+      <div class="container">
+        <div class="about-story">
+          <div class="about-story-text">
+            <h2 class="h2">Our Story</h2>
+            <div class="prose-lg">
+              <p>
+                Founded in 2015, Bright Future Foundation began with a simple belief: that education is the most
+                powerful tool for creating lasting positive change in communities. What started as a small tutoring
+                program in a single neighborhood has grown into a comprehensive network of educational initiatives
+                serving thousands of learners across multiple regions.
+              </p>
+              <p>
+                Our approach is rooted in partnership and respect. We work closely with local communities to
+                understand their unique needs and co-create solutions that are sustainable and culturally relevant.
+                From early childhood literacy programs to adult vocational training, we're committed to supporting
+                learners at every stage of their journey.
+              </p>
+            </div>
+          </div>
+
+          <div class="about-story-images">
+            <img
+              class="about-img"
+              src="images/diverse-students-classroom.png"
+              alt="Students learning together" />
+            <img
+              class="about-img about-img-offset"
+              src="images/teacher-helping-student-with-reading.jpg"
+              alt="Teacher helping student" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMPACT STATS -->
+    <section class="section">
+      <div class="container">
+        <div class="center mb-lg">
+          <h2 class="h2">Our Impact by the Numbers</h2>
+          <p class="muted">A decade of dedication to educational excellence and community empowerment</p>
+        </div>
+
+        <div class="grid grid-cols-2 grid-lg-cols-4 gap-md">
+          <div class="stat-tile">
+            <div class="stat-value">15,000+</div>
+            <div class="stat-label">Students Served</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-value">50+</div>
+            <div class="stat-label">Communities Reached</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-value">500+</div>
+            <div class="stat-label">Educators Trained</div>
+          </div>
+          <div class="stat-tile">
+            <div class="stat-value">92%</div>
+            <div class="stat-label">Program Completion Rate</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALUES -->
+    <section class="section section-muted">
+      <div class="container">
+        <div class="center">
+          <h2 class="h2">Our Core Values</h2>
+        </div>
+
+        <div class="grid grid-cols-1 grid-cols-3--lg gap-md mt-md">
+          <article class="card card-hover">
+            <div class="card-header">
+              <h3 class="card-title">Equity</h3>
+              <p class="card-description">
+                Every person deserves equal access to quality education, regardless of background or circumstances.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card-hover">
+            <div class="card-header">
+              <h3 class="card-title">Community</h3>
+              <p class="card-description">
+                We partner with local communities, respecting their wisdom and building lasting solutions.
+              </p>
+            </div>
+          </article>
+
+          <article class="card card-hover">
+            <div class="card-header">
+              <h3 class="card-title">Excellence</h3>
+              <p class="card-description">
+                We strive for the highest quality, continuously learning and improving our approach.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section">
+      <div class="container">
+        <div class="center">
+          <h2 class="h2">Meet Our Team</h2>
+          <p class="muted">Dedicated professionals working together to create educational opportunities</p>
+        </div>
+
+        <div class="grid grid-cols-2 grid-cols-4--lg gap-md mt-md">
+          <!-- Sarah -->
+          <article class="card team-card">
+            <img class="team-photo" src="images/professional-woman-executive-director.png" alt="Sarah Johnson" />
+            <div class="card-content">
+              <h3 class="team-name">Sarah Johnson</h3>
+              <p class="team-role muted">Executive Director</p>
+            </div>
+          </article>
+          <!-- Michael -->
+          <article class="card team-card">
+            <img class="team-photo" src="images/professional-man-program-coordinator.jpg" alt="Michael Chen" />
+            <div class="card-content">
+              <h3 class="team-name">Michael Chen</h3>
+              <p class="team-role muted">Program Coordinator</p>
+            </div>
+          </article>
+          <!-- Emily -->
+          <article class="card team-card">
+            <img class="team-photo" src="images/professional-woman-community-outreach.jpg" alt="Emily Rodriguez" />
+            <div class="card-content">
+              <h3 class="team-name">Emily Rodriguez</h3>
+              <p class="team-role muted">Community Outreach</p>
+            </div>
+          </article>
+          <!-- David -->
+          <article class="card team-card">
+            <img class="team-photo" src="images/professional-man-education-director.jpg" alt="David Thompson" />
+            <div class="card-content">
+              <h3 class="team-name">David Thompson</h3>
+              <p class="team-role muted">Education Director</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="band-cta">
+      <div class="container center">
+        <h2 class="band-cta-title">Join Us in Making a Difference</h2>
+        <p class="band-cta-subtitle">
+          Whether you want to volunteer, donate, or partner with us, there are many ways to support our mission.
+        </p>
+        <div class="cta-actions">
+          <a class="btn btn-secondary" href="contact.html">Get Involved</a>
+          <a class="btn btn-outline" href="programs.html">View Our Programs</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (same markup as index.html) -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Bright Future Foundation</h3>
+          <p>Empowering individuals and strengthening communities through accessible, high-quality education.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="about.html" aria-current="page">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <ul class="footer-links">
+            <li>Email: info@brightfuture.org</li>
+            <li>Phone: (555) 123-4567</li>
+            <li>Address: 123 Education St, Learning City, LC 12345</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Bright Future Foundation. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // mobile nav toggle (same behavior as index.html)
+    document.querySelector('.nav-toggle').addEventListener('click', function () {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
