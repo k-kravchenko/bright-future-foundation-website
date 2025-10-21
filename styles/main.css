@@ -907,9 +907,11 @@ text-align: center;
 /* Newsletter form alignment */
 .newsletter-form {
   display: flex;
+  flex-direction: column;
   gap: var(--spacing-md);
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  align-items: center;
   flex-wrap: wrap;
   margin-top: var(--spacing-xl);
 }
