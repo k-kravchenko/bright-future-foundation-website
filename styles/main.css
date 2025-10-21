@@ -962,6 +962,11 @@ text-align: center;
   gap: var(--spacing-xl);
   align-items: center;
 }
+.story {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
 @media (min-width: 992px) {
   .success-story { grid-template-columns: 1fr 1.2fr; }
 }
@@ -973,6 +978,6 @@ text-align: center;
 .success-text p { margin-bottom: var(--spacing-md); line-height: 1.7; }
 .success-text .meta {
   font-size: 0.95rem;
-  color: var(--color-muted-foreground);
+  color: #c7c7c7;
   font-style: italic;
 }
